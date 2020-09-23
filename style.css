@@ -1,0 +1,202 @@
+body
+{
+	background-color: #E8DAEf;
+	margin: 0;
+}
+
+header h1 ,h3
+{
+	text-align: center;
+	font-family: Candara,Serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: rgb(242, 2, 2);
+	margin: 0;
+	padding: 32px 14px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.content main
+{
+	background-color: #E8DAEf;
+}
+.content main form
+{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	padding-top: 3rem;
+}
+form fieldset
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFC300;
+	border-radius: 30px 0 30px 0;
+	width: 100%;
+	height: 11rem;
+	background-color: #FFC300;
+}
+form fieldset a
+{
+	text-decoration: none;
+	color: #7700b3;
+	border-width: 2px;
+	border-color: #7700b3;
+	border-style: solid;
+	padding: 5px 5px;
+	margin-left: 0.5rem;
+	display: block;
+	margin-top: 0.6rem;
+	text-align: center;
+}
+form fieldset a:hover
+{
+	background-color: rgba(119,0,179,0.8);
+	color:#FFffff; 
+}
+
+/*Sum Pages*/
+
+.initial , .mybtn
+{
+	display: flex;
+	flex-direction: row;
+}
+.start , .btn-next , .btn-ans
+{
+	padding: 2em 1em;
+}
+.initial
+{
+	position: relative;
+}
+
+.center-name
+{
+	float: right;
+	font-family: Candara,Serif;
+	font-style: italic;
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
+}
+.sum
+{
+	display: none;
+	position: absolute;
+	top: 3rem;
+}
+.sum ul li
+{
+	list-style: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-left: 25vw;
+}
+.ans
+{
+	display: none;
+	font-size: 5rem;
+	position: absolute;
+	color: red;
+	top: 60vh;
+	left: 8vw;
+}
+.mybtn
+{
+	position: absolute;
+	top: 65vh;
+	left: 42vw;
+}
+
+
+
+/*Media Tag*/
+
+
+@media (min-width: 576px) {
+.content main
+{
+	background-color: #E8DAEf;
+}
+form fieldset
+{
+	width: 50%;
+}
+form fieldset a
+{
+	padding: 5px 5px;
+	margin-left: 1rem;
+	display: block;
+}
+.ans
+{
+	font-size: 5rem;
+	top: 25vh;
+	left: 65vw;
+}	
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+form fieldset a
+{
+	padding: 5px 5px;
+	margin-left: 1rem;
+	display: block;
+}
+.sum ul li
+{
+	font-size: 2rem;
+}
+.mybtn
+{
+	left: 55vw;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+form fieldset
+{
+	border-radius: 50px 0 50px 0;
+	width: 60%;
+}
+form fieldset a
+{
+	padding: 12px 14px;
+	margin-left: 3rem;
+	display: inline-block;
+	margin-top: 4rem;
+	text-align: center;
+}
+.sum ul li
+{
+	font-size: 2.2rem;
+}
+.ans
+{
+	font-size: 8rem;
+	top: 20vh;
+	left: 45vw;
+}
+.mybtn
+{
+	left: 45vw;
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

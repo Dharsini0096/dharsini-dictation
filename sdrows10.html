@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seeing & Doing | 10 Rows</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<meta charset="utf-8" name="viewport" content="width = device-width , initial-scale = 1">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<div class="initial">
+		<div class="start"><button class="btn btn-info"onclick="start();">Start</button></div>
+
+	</div>
+	<div class="center-name">
+		<h4>Siddi Academy</h4>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>1</li>
+			<li>9</li>
+			<li>-7</li>
+			<li>-1</li>
+			<li>5</li>
+			<li>2</li>
+			<li>8</li>
+			<li>-6</li>
+			<li>5</li>
+			<li>9</li>
+		</ul>
+		<div class="ans">25</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next" onclick="start();"><button class="btn btn-success">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button  class="btn btn-success" onclick="showans(0);">Answer</button></div>
+		</div>
+	</div>	
+	<div class="sum">
+		<ul>
+			<li>3</li>
+			<li>2</li>
+			<li>4</li>
+			<li>8</li>
+			<li>5</li>
+			<li>9</li>
+			<li>4</li>
+			<li>8</li>
+			<li>9</li>
+			<li>8</li>
+		</ul>
+		<div class="ans">60</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button  class="btn btn-success" onclick="showans(1);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>8</li>
+			<li>-6</li>
+			<li>8</li>
+			<li>3</li>
+			<li>7</li>
+			<li>1</li>
+			<li>7</li>
+			<li>-2</li>
+			<li>-5</li>
+			<li>4</li>
+		</ul>
+		<div class="ans">25</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(2);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>4</li>
+			<li>3</li>
+			<li>4</li>
+			<li>8</li>
+			<li>7</li>
+			<li>5</li>
+			<li>6</li>
+			<li>2</li>
+			<li>7</li>
+			<li>2</li>
+		</ul>
+		<div class="ans">48</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(3);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>9</li>
+			<li>4</li>
+			<li>-1</li>
+			<li>1</li>
+			<li>2</li>
+			<li>5</li>
+			<li>-4</li>
+			<li>8</li>
+			<li>-8</li>
+			<li>3</li>
+		</ul>
+		<div class="ans">19</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(4);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>4</li>
+			<li>4</li>
+			<li>7</li>
+			<li>5</li>
+			<li>9</li>
+			<li>4</li>
+			<li>3</li>
+			<li>8</li>
+			<li>6</li>
+			<li>1</li>
+		</ul>
+		<div class="ans">51</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(5);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>6</li>
+			<li>7</li>
+			<li>-4</li>
+			<li>3</li>
+			<li>2</li>
+			<li>3</li>
+			<li>7</li>
+			<li>-6</li>
+			<li>5</li>
+			<li>-8</li>
+		</ul>
+		<div class="ans">15</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(6);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>3</li>
+			<li>8</li>
+			<li>6</li>
+			<li>1</li>
+			<li>2</li>
+			<li>1</li>
+			<li>4</li>
+			<li>5</li>
+			<li>3</li>
+			<li>6</li>
+		</ul>
+		<div class="ans">39</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(7);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>9</li>
+			<li>8</li>
+			<li>4</li>
+			<li>8</li>
+			<li>5</li>
+			<li>2</li>
+			<li>5</li>
+			<li>7</li>
+			<li>3</li>
+			<li>6</li>
+		</ul>
+		<div class="ans">57</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(8);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>2</li>
+			<li>-1</li>
+			<li>5</li>
+			<li>6</li>
+			<li>3</li>
+			<li>6</li>
+			<li>9</li>
+			<li>-9</li>
+			<li>7</li>
+			<li>-8</li>
+		</ul>
+		<div class="ans">20</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(9);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>7</li>
+			<li>3</li>
+			<li>4</li>
+			<li>2</li>
+			<li>3</li>
+			<li>7</li>
+			<li>6</li>
+			<li>5</li>
+			<li>5</li>
+			<li>9</li>
+		</ul>
+		<div class="ans">51</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success"onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(10);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>9</li>
+			<li>-4</li>
+			<li>6</li>
+			<li>3</li>
+			<li>1</li>
+			<li>9</li>
+			<li>7</li>
+			<li>-1</li>
+			<li>-8</li>
+			<li>2</li>
+		</ul>
+		<div class="ans">24</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(11);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>6</li>
+			<li>7</li>
+			<li>-2</li>
+			<li>5</li>
+			<li>8</li>
+			<li>3</li>
+			<li>4</li>
+			<li>-2</li>
+			<li>-1</li>
+			<li>7</li>
+		</ul>
+		<div class="ans">35</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(12);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>2</li>
+			<li>6</li>
+			<li>4</li>
+			<li>9</li>
+			<li>4</li>
+			<li>8</li>
+			<li>5</li>
+			<li>3</li>
+			<li>5</li>
+			<li>9</li>
+		</ul>
+		<div class="ans">55</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(13);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>1</li>
+			<li>8</li>
+			<li>-4</li>
+			<li>9</li>
+			<li>4</li>
+			<li>1</li>
+			<li>7</li>
+			<li>-5</li>
+			<li>7</li>
+			<li>-3</li>
+		</ul>
+		<div class="ans">25</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(14);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>8</li>
+			<li>2</li>
+			<li>7</li>
+			<li>9</li>
+			<li>5</li>
+			<li>1</li>
+			<li>4</li>
+			<li>9</li>
+			<li>1</li>
+			<li>6</li>
+		</ul>
+		<div class="ans">52</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(15);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>8</li>
+			<li>-3</li>
+			<li>-1</li>
+			<li>4</li>
+			<li>7</li>
+			<li>2</li>
+			<li>7</li>
+			<li>-4</li>
+			<li>6</li>
+			<li>1</li>
+		</ul>
+		<div class="ans">27</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(16);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>6</li>
+			<li>9</li>
+			<li>2</li>
+			<li>8</li>
+			<li>5</li>
+			<li>1</li>
+			<li>1</li>
+			<li>8</li>
+			<li>8</li>
+			<li>6</li>
+		</ul>
+		<div class="ans">54</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(17);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>6</li>
+			<li>-4</li>
+			<li>1</li>
+			<li>5</li>
+			<li>8</li>
+			<li>5</li>
+			<li>7</li>
+			<li>-5</li>
+			<li>-2</li>
+			<li>6</li>
+		</ul>
+		<div class="ans">27</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(18);">Answer</button></div>
+		</div>
+	</div>
+	<div class="sum">
+		<ul>
+			<li>4</li>
+			<li>9</li>
+			<li>9</li>
+			<li>8</li>
+			<li>8</li>
+			<li>3</li>
+			<li>1</li>
+			<li>1</li>
+			<li>6</li>
+			<li>5</li>
+		</ul>
+		<div class="ans">54</div>
+		<div class="mybtn">
+			<div class="btn-next" id="btn-next"><button class="btn btn-success" onclick="start();">Next</button></div>
+			<div class="btn-ans" id="btn-ans"><button class="btn btn-success" onclick="showans(19);">Answer</button></div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
